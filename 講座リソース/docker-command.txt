@@ -1,0 +1,12 @@
+
+■開発環境の起動
+docker-compose up -d
+■開発管渠の停止
+docker-compose stop
+■開発管渠の削除
+docker-compose down
+■開発管渠の停止した後の起動
+docker-compose up
+以下のファイルを削除する必要がある
+rm tmp/pids/server.pid
+
